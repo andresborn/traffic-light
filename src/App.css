@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lights-container {
+  width: 300px;
+  height: 600px;
+  background-color: #282c34;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.light-button {
+  position: relative;
+  width: 190px;
+  height: 190px;
+  background-color: grey;
+  border-radius: 100px;
+}
